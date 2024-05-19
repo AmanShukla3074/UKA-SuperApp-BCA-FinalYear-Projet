@@ -1,0 +1,125 @@
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2; /* Set a higher z-index than SubNav */
+    height: 32px;
+
+    /* background-color: transparent;  */
+
+    transition: background-color 0.5s ease; 
+  }
+
+ .LinkTextDeco{
+  text-decoration: none;
+  color: white;
+ }
+
+  .navbar.transparent {
+    background-color: transparent;
+  }
+  
+  .navbar.solid {
+    background-color: #ebd4f6; /* Change to your solid color */
+  }
+
+  .nav-links .active{
+    color: #b85ee6;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the width of the logo as needed */
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a ,
+  .nav-links .adminPanel {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+  }
+  
+  /* .nav-links a:hover {
+    color: #25037a; 
+  } */
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+  }
+  .user-actions button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .user-actions .profile-btn {
+    color: black;
+    background: none;
+    font-size: 25px;
+    border: none;
+
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 32px;
+  }
+  
+  .login-btn {
+    background-color: transparent;
+    color: black;
+    padding: 8px 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+  }
+  
+
+
+
+
+  .dropdown-menu {
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    background-color: #444;
+    min-width: 240px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 250px;
+    margin-right: 125px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+   }
+   
+   .dropdown-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   }
+   
+   .dropdown-menu li {
+    padding: 8px 16px;
+    cursor: pointer;
+   }
+   
+   .dropdown-menu li:hover {
+    background-color: #222;
+   }
+   

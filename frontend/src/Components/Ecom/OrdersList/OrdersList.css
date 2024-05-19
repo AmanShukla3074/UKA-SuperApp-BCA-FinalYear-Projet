@@ -1,0 +1,35 @@
+/* OrdersList.css */
+.orderlist-wrapper{
+    width: 65%;
+    margin: 150px auto;
+}
+
+.orderLink{
+    text-decoration: none;
+    color: black;
+}
+.order-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   .order-container h2 {
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    color: #333;
+   }
+   
+   .order-container p {
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    color: #666;
+   }
+   
+   .order-container p:last-child {
+    margin-bottom: 0;
+   }
+   

@@ -1,0 +1,70 @@
+.showtimes {
+  margin-top: 150px;
+  width: 80%;
+  margin: 150px auto 20px;
+}
+
+.showtimes .movieDetails .movieName {
+  text-align: left;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+/* ShowtimeList.css */
+
+.showtime-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.date-slider {
+  margin-bottom: 20px;
+  /* Add styling for your date slider container */
+}
+
+.date-list {
+  display: flex;
+  justify-content: center;
+}
+
+.date-item-showtime {
+  font-size: 15px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+  padding: 0 10px;
+  background-color: #f9f9f9;
+}
+
+.date-item h3 {
+  margin: 0;
+}
+
+.showtime-details {
+  display: flex;
+}
+
+.showtime-item-shows {
+  margin: 10px;
+}
+
+.timing {
+  border: 2px solid #333;
+  padding: 6px 12px;
+  border-radius: 10px;
+}
+
+.date-item-showtime.selected {
+  background-color: #ebd4f6;
+  color: black; 
+ }
+ 
+
+ .theater-item{
+  display: flex ;
+  align-items: center;
+ }
+
+ .theaterName{
+  width: 12%;
+ }

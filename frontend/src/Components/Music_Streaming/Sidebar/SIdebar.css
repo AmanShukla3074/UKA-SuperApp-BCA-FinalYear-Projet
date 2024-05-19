@@ -1,0 +1,28 @@
+.SidebarContainer{
+    margin-top: 85px;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.SideBarLink{
+    text-decoration: none;
+    color: white;
+}
+
+.sideBarFlex{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.sideBarLogo{
+    font-size: 90%;
+    width: 40px;
+}
+
+.sideBarText{
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}

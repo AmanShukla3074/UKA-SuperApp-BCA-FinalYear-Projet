@@ -1,0 +1,14 @@
+.playlist-title {
+  text-align: center;
+  color: black;
+  /* margin-top: 100px; */
+  margin-right: 40px;
+  font-size: 40px;
+}
+
+.PlaylistWarpper{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+.OTP{
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.otpDigit{
+    display: flex;
+    padding: 10px;
+}
+
+.otpDigit input{
+    margin: 10px 2px;
+    padding: 6px 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.custom-label{
+    align-items: center;
+}
+
+button{width: 90%;
+margin: 10px auto;}

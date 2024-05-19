@@ -1,0 +1,79 @@
+/* SeatShowtime.css */
+.seat-showtime-container {
+  margin: 150px auto;
+  width: 60%;
+}
+
+.seat-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-label {
+  margin-right: 20px;
+}
+
+.showtime-details {
+  display: flex;
+  gap: 10px;
+}
+
+.showtime-item {
+  /* padding: 10px; */
+  /* border: 1px solid #ccc; */
+  cursor: pointer;
+  background-color: white;
+  margin: 4px;
+}
+
+.seat-number.selected {
+  background-color: #cdbbd7; /* Change this color to your desired background for selected seats */
+  /* color: white; */
+}
+
+.showtime-item.booked {
+  background-color: #ff8c8c;
+}
+
+.seat-number {
+  border: 2px solid black;
+  width: 30px;
+  text-align: center;
+  height: 30px;
+  border-radius: 6px;
+}
+
+.seat-showtime-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.seat-type-label {
+  text-align: center;
+}
+
+.seat-number.booked {
+  background-color: gray;
+  color: white;
+}
+
+.total-price-box {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* padding: 10px; */
+  background-color: #b479ec;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+  font-size: 22px;
+ }
+ 
+
+ .payment-button{
+  background-color: transparent;
+ }

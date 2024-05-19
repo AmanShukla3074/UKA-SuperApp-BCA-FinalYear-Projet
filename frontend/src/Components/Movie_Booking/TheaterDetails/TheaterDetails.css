@@ -1,0 +1,59 @@
+.theater-details {
+    margin-top: 150px;
+    width: 80%;
+    margin: 150px auto 20px;
+   }
+
+   
+   .movie-list .movieName {
+    width: 15%;
+   }
+   
+
+   .showtimeList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+   }
+   
+   .movie-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 80%;
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+}
+   
+   .date-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+   }
+   
+   .date-item {
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+   }
+   
+   .date-item.selected {
+    background-color: #007bff;
+    color: white;
+   }
+   
+   .showtime-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   
+   .showtime-item-theater {
+    margin: 10px;
+    border: 2px solid #333;
+    padding: 6px 12px;
+    border-radius: 10px;
+   }
+   

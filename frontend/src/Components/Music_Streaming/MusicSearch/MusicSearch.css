@@ -1,0 +1,96 @@
+/* SearchBar.css */
+.search-bar-container {
+  width: 100%;
+  margin: 85px 0 40px;
+  /* margin: 100px 0; */
+}
+
+.search-bar {
+  width: 60%; /* 1/3 */
+  padding: 10px 25px;
+  font-size: 0.875rem; /* text-sm */
+  border-radius: 9999px; /* rounded-full */
+  background-color: #2d3748; /* bg-gray-800 */
+  padding-left: 1.25rem; /* px-5 */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff; /* text-white */
+  margin: auto;
+}
+
+.search-bar-focused {
+  border: 1px solid #ffffff; /* border border-white */
+}
+
+.search-input {
+  width: 100%;
+  background-color: #2d3748;
+  outline: none;
+  margin: 0;
+  padding: 10px;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+.MusicSerachBtn {
+  font-size: 25px;
+}
+
+.search-results-container {
+  width: 75%;
+  margin: auto;
+}
+
+.searchMusicHeader {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+}
+
+.searchAlbumWrapper {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.albumItems {
+  width: 75%;
+}
+
+.album-img-container {
+  height: 150px;
+  width: 150px;
+}
+
+.artist-img-container {
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.artist-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+
+
+.searchArtistWrapper {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.artist{
+  width: 25%;
+  text-align: center;
+}

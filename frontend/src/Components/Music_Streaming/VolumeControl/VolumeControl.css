@@ -1,0 +1,22 @@
+.volControl{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px ; */
+    width: 100%;
+}
+
+.volControlBtn{
+    background-color: transparent;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+}
+
+.volControlScroll{
+    margin: 0;
+    padding: 0;
+    accent-color: #ebd4f6;
+    /* accent-color: black; */
+}

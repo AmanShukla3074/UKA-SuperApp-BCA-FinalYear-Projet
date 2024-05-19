@@ -1,0 +1,126 @@
+.bottom-bar {
+  width: 100%;
+  height: 12vh;
+  background-color: #b269ff;
+  position: fixed; /* Fix the bottom bar to the bottom of the viewport */
+  bottom: 0;
+  display: flex;
+  color: white;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.bottom-bar-left {
+  width: 25%;
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.bottom-bar-center {
+  width: 60%;
+  /* background: green; */
+}
+
+.bottom-bar-right {
+  width: 25%;
+  /* background: red; */
+  display: flex;
+  align-items: center;
+}
+
+.bottomBarscontrols {
+  font-size: 35px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomBarscontrols-center {
+  margin: 0 40px;
+  display: flex;
+  align-items: center;
+}
+.bottomBarscontrols-left {
+  margin-top: 5px;
+}
+.bottomBarscontrols-right {
+  margin-top: 3px;
+}
+
+.bottom-bar-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border: 1px solid white;
+  cursor: pointer;
+  margin: 5px 0;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+.bottom-bar-img-container {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+
+.bottom-bar-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bottom-barTitle {
+  font-size: 22px;
+}
+
+/* .bottom-barDetails{
+    height: 50px;
+} */
+.bottom-barArtists {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: black;
+}
+
+.artist-info {
+  margin-right: 15px;
+}
+
+.bottomcenterMarginBottom {
+  margin-bottom: 7px;
+}
+
+.addToPlaylist {
+  /* display: flex; */
+  padding-right: 5px;
+  /* justify-content: end; */
+  align-items: center;
+  margin-top: 15px;
+  margin-right: -15px;
+  font-size: 35px;
+  width: 25%;
+}
+
+.volControlBot {
+  width: 75%;
+}
+
+.bottomScrubber {
+  width: 80%;
+  margin: -30px auto 0;
+  accent-color: #ebd4f6;
+}
+
+.likeButton {
+  cursor: pointer;
+  margin: 6px 15px 0px 4px;
+  font-size: 25px;
+}

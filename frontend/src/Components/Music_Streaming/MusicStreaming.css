@@ -1,0 +1,36 @@
+.musicContain{
+    display: flex;
+}
+
+.sidebar{
+    /* height: 90vh; */
+    margin-bottom: -100px;
+    width: 16%;
+    background-color: #222;
+}
+
+.sidebar-half{
+    height: 90vh;
+}
+
+.sidebar-full{
+    height: 100vh;
+}
+
+.Main{
+    width: 84%;
+    background-color: #fff;
+    margin-bottom: -100px;
+    /* height: 90vh; */
+    overflow: auto;
+    /* margin-left: 20%; */
+}
+
+
+.Main-half{
+    height: 90vh;
+}
+
+.Main-full{
+    height: 100vh;
+}

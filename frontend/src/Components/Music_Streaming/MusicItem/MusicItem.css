@@ -1,0 +1,42 @@
+.music-item{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    border: 1px solid #111;
+    cursor: pointer;
+    margin: 10px auto;
+    /* border-radius: 5px; */
+    padding: 0px 10px;
+    width: 90%;
+}
+
+.music-img-container{
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.music-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.MusicTitle{
+    font-size: 28px;
+}
+
+.musicDetails{
+    height: 50px;
+}
+.musicArtists{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: black;
+}
+
+.artist-info{
+    margin-right: 15px;
+}

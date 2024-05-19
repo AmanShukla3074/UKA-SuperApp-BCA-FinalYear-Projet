@@ -1,0 +1,206 @@
+/* Container for booking details */
+.booking-details-wrapper {
+    width: 50%;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.booking-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking-QR-wrapper{
+    margin-right: 30px;
+}
+
+/* Corrected CSS selector for QR code */
+.booking-details .booking-QR-wrapper svg {
+    width: 200px !important; /* Increase the width */
+    height: 200px !important; /* Increase the height */
+}
+
+/* Heading for booking details */
+.booking-details h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Paragraphs for booking details */
+.booking-details p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Container for QR code */
+.booking-details .qr-code {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Container for ticket details */
+.ticket-details {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Heading for ticket details */
+.ticket-details h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs for ticket details */
+.ticket-details p {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+   }
+   
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   }
+   
+   .dropdown-content button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    border: none;
+    background: none;
+    cursor: pointer;
+   }
+   
+   .dropdown-content button:hover {
+    background-color: #f1f1f1;
+   }
+   
+   .dropdown:hover .dropdown-content {
+    display: block;
+   }
+   
+   .complaint-form {
+    margin-top: 20px;
+   }
+   
+   .complaint-form form {
+    margin-top: 20px;
+   }
+   
+   .complaint-form textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+   }
+ .dropdownBookingWrapper{
+    margin: auto;
+    width: 50%;
+ }
+
+
+ .dropdownBtn{
+    background-color: #e9ecef;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dropDownCloseSubBtnWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.dropDownCloseSubBtn{
+    background-color: #e9ecef;
+    color: black;
+    padding: 10px;
+    width: 40%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.MBComplaintForm{padding: 10px;
+background: #f9f9f9;}
+
+
+.MBComplaintArea{
+    width: 100%;
+    height: 110px;
+    margin: 10px 10px 0;
+    font-size: 20px;
+}
+
+
+
+
+
+.ratingFormWrapper {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+   
+   .ratingFormWrapper label {
+    display: block;
+    margin-bottom: 10px;
+   }
+   
+   .ratingFormWrapper input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+   }
+   
+   .ratingFormWrapper button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+   }
+   
+   .ratingFormWrapper button[type="submit"]:hover {
+    background-color: #0056b3;
+   }
+   

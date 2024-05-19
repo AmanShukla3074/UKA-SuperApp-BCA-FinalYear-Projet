@@ -1,0 +1,215 @@
+.movie-container{
+    background-color: #f8f0f7;
+    margin: 100px 0;
+}
+
+.movie-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding:30px 10px;
+  }
+  
+  .movie-poster {
+    width: 300px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 35px;
+  }
+  
+  .movie-info {
+    flex: 1;
+  }
+  
+  .movie-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: left;
+    color: black;
+  }
+  
+  .movie-title .movieRatings{
+    font-size: 20px;
+  }
+  
+  .movie-info p{
+    font-size: 20px;
+    margin:  20px 0;
+    color: black;
+  }
+  
+  .movie-info .movie-genre,
+  .movie-info .movie-language,
+  .movie-info .movie-type
+  {
+    font-size: 20px;
+    margin:  20px 0;
+    color: black;
+  }
+
+ .book-button{
+    padding: 10px 30px;
+    border-radius: 2px;
+    border: 1px solid black;
+    background: #e2d5d5;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+ }
+.movie-description{
+  font-size: 20px;
+}
+
+ .castAndCrew{
+    width: 80%;
+    margin: 30px auto;
+ }
+
+
+
+ /* .... */
+
+ .cast-container {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  
+  .cast-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 0 20px;
+  }
+  
+  .cast-card {
+    width: 215px;
+    height: 290px;
+    background-color: #fff;
+    margin-right: 20px;
+    overflow: hidden;
+
+  }
+  
+  /* .cast-card:hover {
+    transform: translateX(-10px);
+    z-index: 1;
+  } */
+  
+  .cast-card .img {
+    width: 100%;
+    height: 210px;
+    /* height: 100%; */
+    object-fit: cover;
+  }
+  .cast-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .cast-details {
+    display: flex;
+    flex-direction: column;
+  }
+  .cast-details h3 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .cast-details p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 5px 0;
+  }
+
+  .castAndCrew h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+
+
+  /* pop up css  */
+  /* MovieDetails.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    max-width: 800px;
+    position: relative;
+  }
+  
+  .modal-close-button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .modal-content-movie {
+    margin-top: 20px;
+  }
+
+  .movie-duration,
+  .movie-release-date{
+    text-align: left;
+  }
+/* 
+  .modal-language,
+  .modal-showtype {
+
+  } */
+
+
+  .modal-showtype .showTypeBtn{
+  
+      border: 0px;
+      padding: 8px 12px;
+      border-radius: 21px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 64px;
+    color: black;
+    background-color: #fdfaff;
+    border: 0.5px solid #333;
+  }
+  
+  .modal-language h3,
+  .modal-showtype h4 {
+    margin: 0;
+  }
+  
+  .modal-language ul,
+  .modal-showtype ul {
+    /* padding-left: 20px; */
+    list-style-type: none;
+  }
+  
+  .modal-language li,
+  .modal-showtype li {
+    margin-bottom: 5px;
+  }

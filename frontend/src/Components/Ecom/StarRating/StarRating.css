@@ -1,0 +1,13 @@
+.star-rating {
+    display: flex;
+    gap: 2px;
+    margin-right: 50px;
+   }
+   
+   .star-rating svg {
+    width: 20px;
+    height: 20px;
+    color: #222; /* Example color for filled stars */
+    /* color: #f9c700;  */
+   }
+   

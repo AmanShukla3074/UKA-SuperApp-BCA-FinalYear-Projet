@@ -1,0 +1,26 @@
+.artist-page {
+    margin-top: 75px;
+   }
+
+   
+   .artist-detail-main{     
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 85%;
+    margin: auto;
+   }
+
+   .artist-detail-img{
+    width: 20%;
+   }
+
+   .artist-detail-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+
+   .artist-detail-info{
+    margin-left: 30px;
+   }

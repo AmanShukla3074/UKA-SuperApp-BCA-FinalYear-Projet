@@ -1,0 +1,27 @@
+
+   
+.bookings-wrapper {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    padding: 20px;
+    width: 70%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   } 
+
+   .bookings{
+    width: 45%;
+    /* height: 340px; */
+   }
+/* 
+   
+.bookings-wrapper {
+    display: flex;
+    /* flex-direction: column; 
+    gap: 20px;
+    padding: 20px;
+    width: 70%;
+    margin: 100px auto;
+   }  */

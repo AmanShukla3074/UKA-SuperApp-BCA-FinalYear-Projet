@@ -1,0 +1,10 @@
+config.py
+
+backend/.env
+
+CodeLogics/
+
+backend/backend/__pycache__/config.cpython-311.pyc
+
+# *.pyc
+# __pycache__/

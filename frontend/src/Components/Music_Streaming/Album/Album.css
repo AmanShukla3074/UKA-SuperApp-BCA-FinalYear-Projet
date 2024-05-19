@@ -1,0 +1,36 @@
+.album-page {
+    margin-top: 75px;
+   }
+
+   
+   .album-details-main{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 85%;
+    margin: auto;
+   }
+
+   .album-detail-img{
+    width: 20%;
+   }
+
+   .album-detail-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+
+   .album-details-info{
+    margin-left: 30px;
+   }
+
+   .album-details-info p{
+    font-size: 20px;
+   }
+
+   .album-details-title {
+    margin: 0;
+    text-align: center;
+    font-size: 45px;
+}

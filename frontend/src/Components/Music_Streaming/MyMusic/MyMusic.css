@@ -1,0 +1,16 @@
+.myMusicItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myMusicDeleteBtn{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 30px;
+}

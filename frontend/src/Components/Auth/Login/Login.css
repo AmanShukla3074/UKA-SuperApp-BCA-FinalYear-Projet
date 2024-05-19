@@ -1,0 +1,110 @@
+/* Login.css */
+
+/* Container styling */
+.loginForm {
+  max-width: 450px;
+  margin:180px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-top: 50px;
+ }
+ 
+.forgetpassdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ /* Heading styling */
+ h2 {
+  text-align: center;
+  color: #333;
+ }
+ 
+ /* Error message styling */
+ .error {
+  color: red;
+ }
+ 
+ /* Form styling */
+ form {
+  display: flex;
+  flex-direction: column;
+ }
+ 
+ /* Input field styling */
+ label {
+  margin-bottom: 10px;
+  color: #333;
+ }
+ 
+ /* Unique class for span elements */
+ .login-span {
+  color: black;
+  cursor: pointer;
+  text-align: center;
+ }
+ .login-err {
+  color: red;
+  cursor: pointer;
+  text-align: center;
+ }
+ 
+ /* Input field styling */
+ input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+ }
+ 
+ /* Unique class for button elements */
+ .login-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ }
+ 
+ /* Button hover effect */
+ .login-button:hover {
+  background-color: #0056b3;
+ }
+ 
+ /* Forgot password link styling */
+ .forgotPass {
+  text-align: center;
+ }
+ 
+ .forgotPassLink {
+  text-decoration: none;
+ }
+ 
+ /* Custom label styling */
+ .custom-label {
+  text-decoration: none;
+  margin-top: 15px;
+  margin-right: auto; /* Adjust the margin-top value as needed */
+ }
+ 
+ /* Custom link styling */
+ .custom-link {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 20px;
+  margin: 50px;
+ }
+ 
+ .custom-link:hover {
+  color: #007bff; /* Change the color when hovered */
+ }
+ 
